@@ -8,6 +8,8 @@ import { ProductosService } from 'src/app/services/productos.service';
 })
 export class PortafolioComponent implements OnInit {
 
+  //form: FormGroup;
+
   constructor( public productosService: ProductosService ) { }
 
   ngOnInit(): void {
